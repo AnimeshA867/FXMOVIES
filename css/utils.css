@@ -1,0 +1,17 @@
+button{
+    height:100%;
+    width:100%;
+    cursor:pointer;
+    font-size: 0.940rem;
+    font-weight: 700;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.play button:hover{
+    background-color: rgb(255,255,255,1);
+}
+.info button:hover{
+    background-color: rgb(62,62,75);
+}

@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+header{
+    height:10vh;
+    position:absolute;
+}
+.navbar {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.656);
+    height: 10vh;
+    width: 100vw;
+    z-index: 10;
+    display:flex;
+    align-items: center;
+
+}
+
+
+.icons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: right; */
+    align-items: center;
+    padding: 0px 114px;
+    gap: 75px;
+}
+
+.movies {}
+
+.movies h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: red;
+}
+
+.options {
+    display: flex;
+    gap: 3em;
+}
+
+.options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.signup{
+    padding:0em 2em 0em 0em;
+    width:10em;
+    /* height:10em;  */
+}
+.btn{
+    height:3em;
+    width:6em;
+}
+main{
+    height:calc(100vh- 20vh);
+}
+.imgholder {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bgoverlay {
+    background: #000000de;
+    inset: 0;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    /* top:0; */
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 16rem;
+    width: 34vw;
+    left: 11rem;
+    gap: 1rem;
+}
+.texts{
+    cursor:default;
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+.heading h2 {
+    text-transform: uppercase;
+    /* font-size: 28px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+.ratings {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.ratings .green {
+    color: green;
+}
+
+.ratings .date {
+    font-weight: 800;
+}
+
+.details {
+    font-size: 1.188rem;
+}
+.player{
+    display:flex;
+    height:8vh;
+    width:100%;
+    gap:10px;
+}
+.play{
+    height:100%;
+    width:5em;
+    border-radius: 7px;
+}
+.play button{
+    color:rgb(62, 62, 62);
+    background-color: rgba(255, 255, 255, 0.767);
+    border:none;
+    border-radius: 7px;
+}
+.info button{
+    background-color:rgb(62, 62, 62);
+    color: white;
+    border:none;
+    border-radius: 7px;
+}
+
+.info{
+    height:100%;
+    width:11em;
+    background-color:rgb(62, 62, 62);
+    color: white;
+    border-radius: 7px;
+}
+footer{
+    text-align: center;
+    height:6vh;
+}
+footer p{
+    font-size: 0.813rem;
+}
